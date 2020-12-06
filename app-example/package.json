@@ -16,7 +16,9 @@
     "ios": "rn-wix-engine -p engineConfig.json -i"
   },
   "dependencies": {
-    "react-native-wix-engine": "^0.0.2"
+    "react-native-wix-engine": "^0.0.4",
+    "wix-engine-playground-module-blog": "0.x.x",
+    "wix-engine-playground-module-settings": "0.x.x"
   },
   "devDependencies": {}
 }

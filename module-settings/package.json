@@ -1,0 +1,22 @@
+{
+  "name": "wix-engine-playground-module-settings",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-incubator/react-native-wix-engine-playground.git"
+  },
+  "scripts": {
+    "run-fake-server": "json-server --watch db.json",
+    "android": "rn-wix-engine -p engineConfig.json -a",
+    "ios": "rn-wix-engine -p engineConfig.json -i"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react-native-wix-engine": "^0.0.4"
+  },
+  "peerDependencies": {
+    "react-native-wix-engine": "*"
+  }
+}

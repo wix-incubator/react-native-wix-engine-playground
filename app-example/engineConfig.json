@@ -1,6 +1,9 @@
 {
   "engineConfig": {
-    "modules": []
+    "modules": [
+      "wix-engine-playground-module-blog",
+      "wix-engine-playground-module-settings"
+    ]
   }
 
 }

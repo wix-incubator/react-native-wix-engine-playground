@@ -1,0 +1,36 @@
+{
+  "name": "wix-engine-playground-module-blog",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-incubator/react-native-wix-engine-playground.git"
+  },
+  "main": "./src/module.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/react-native-wix-engine-playground/issues"
+  },
+  "homepage": "https://github.com/wix-incubator/react-native-wix-engine-playground#readme",
+  "description": "",
+  "scripts": {
+    "run-fake-server": "json-server --watch db.json",
+    "android": "rn-wix-engine -p engineConfig.json -a",
+    "ios": "rn-wix-engine -p engineConfig.json -i"
+  },
+  "dependencies": {
+    "@react-native-community/blur": "^3.6.0",
+    "@react-native-community/datetimepicker": "^3.0.3",
+    "@react-native-community/netinfo": "^5.9.7",
+    "@react-native-community/picker": "^1.8.1",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-ui-lib": "^5.14.0",
+    "remx": "^2.0.51"
+  },
+  "devDependencies": {
+    "react-native-wix-engine": "^0.0.4"
+  },
+  "peerDependencies": {
+    "react-native-wix-engine": "*"
+  }
+}
